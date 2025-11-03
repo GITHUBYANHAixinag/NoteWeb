@@ -66,6 +66,8 @@ app.MapPost("/api/notes",
         });
     });
 
+app.UseStaticFiles();
+
 app.Run();
 
 
