@@ -5,4 +5,4 @@
       context: .
       dockerfile: NoteWeb/Dockerfile
     ports:
-      - "1556"               
+      - "1556:1556"               
