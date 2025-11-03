@@ -607,7 +607,7 @@
 			// ✅ 改这里：从后端接口获取 messages
 			async function fetchMessages() {
 				try {
-					const res = await fetch('http://localhost:1556/api/notes')
+					const res = await fetch('/api/notes')
 					const data = await res.json()
 					console.log('✅ 已解析消息:', data)
 					if (Array.isArray(data)) {
@@ -704,7 +704,7 @@
 				if (!text) return;
 
 				try {
-					const res = await fetch('http://localhost:1556/api/notes', {
+					const res = await fetch('/api/notes', {
 						method: 'POST',
 						headers: { 'Content-Type': 'application/json' },
 						body: JSON.stringify({ content: text })

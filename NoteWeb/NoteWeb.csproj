@@ -27,4 +27,10 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="noteweb.db">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
