@@ -6,7 +6,7 @@
 
 `NoteWeb` 是一个基于 `Web` 技术构建的便签墙应用，用户可以在界面上添加简短的便签，这些便签会以卡片形式显示在虚拟的便签墙上。每个便签都支持拖动、最大化、最小化和关闭等操作，提供了良好的用户交互体验。
 
-快速访问：https://www.pljzy.top/noteweb。
+快速访问：https://www.pljzy.top/noteweb
 
 纯前端版本：https://pljzy.top/note.html
 
