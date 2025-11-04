@@ -53,6 +53,17 @@ app.MapGet("/api/notes",
 app.MapPost("/api/notes",
     async (MyDbContext db, [FromBody] NoteDto dto) =>
     {
+        // Content 不能超过30个中文字符
+        if (dto.Content.Length > 30)
+        {
+            return Results.Json(new ApiResponse
+            {
+                StatusCode = 400,
+                Successful = false,
+                Message = "便签内容不能超过30个字"
+            });
+        }
+
         Note note = new Note
         {
             Content = dto.Content,
