@@ -1,0 +1,17 @@
+/.idea/.idea.NoteWeb/.idea/vcs.xml
+/NoteWeb/obj
+/NoteWeb/bin
+/NoteWeb/Properties
+/NoteWeb/.vs
+/NoteWeb/*.user
+/NoteWeb/*.suo
+/NoteWeb/*.cache
+/NoteWeb/*.log
+/NoteWeb/*.pdb
+/NoteWeb/*.ilk
+/NoteWeb/*.exe
+/NoteWeb/*.dll
+/NoteWeb/*.dbg
+/NoteWeb/*.opendb
+/.idea/.idea.NoteWeb/.idea/.gitignore
+
