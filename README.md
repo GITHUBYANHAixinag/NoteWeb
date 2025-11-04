@@ -111,7 +111,7 @@ NoteWeb/
 dotnet run
 ```
 
-4. 打开浏览器访问 `http://localhost:1556`
+4. 打开浏览器访问 `http://localhost:1556/index.html`
 
 ### API文档访问
 
